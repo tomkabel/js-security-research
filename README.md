@@ -65,8 +65,12 @@ To prove this, a system was engineered to decouple the token generation from the
 
 To improve performance for this proof-of-concept, the process was wrapped in a simple REST API, allowing the MITM tool to request a fresh token on-demand.
 
-![Proof-of-Concept Architecture 1](./botguard_white.png)
-![Proof-of-Concept Architecture 2](./botguard_dark.png)
+<table>
+  <tr>
+    <td><img width="1024" height="512" alt="botguard_white" src="https://github.com/user-attachments/assets/b2304d98-c1a0-4d9b-8c10-f62aceb2d1fe" /></td>
+    <td><img width="1024" height="512" alt="botguard_dark" src="https://github.com/user-attachments/assets/c8515399-ef0f-4260-9e4b-998a8ff31104" /></td>
+  </tr>
+</table>
 
 ## 4. Key Findings and Implications for Web Security
 
